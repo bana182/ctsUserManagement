@@ -13,10 +13,10 @@ export class Header extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a className="navbar-brand" href="/"><label>PEARSON</label></a>
-                <div className="right-section">
-                    {userInfo ? <div><span>{userInfo.username}</span></div> : ''}  &nbsp; &nbsp;
-            <a className="navbar-brand" href="#" onClick={() => { this.logOut() }}>LogOut</a>
-                </div>
+                { userInfo !== null ? <div className="right-section">
+                    <div><span>{userInfo.username}</span></div> &nbsp; &nbsp;
+                    <a className="navbar-brand" href="#" onClick={() => { this.logOut() }}>LogOut</a>
+                </div> : '' }
             </nav>
         );
     }

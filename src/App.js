@@ -10,7 +10,6 @@ export const App = () => (
     <Header/>
     <Route path="/" exact component={PearsonUsers}/>
     <Route path="/login" component={Login}/>
-    <Route render={() => (<Redirect to="/" />)}/>
     <Footer/>
   </main>
 );
