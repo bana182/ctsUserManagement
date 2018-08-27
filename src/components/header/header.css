@@ -1,0 +1,14 @@
+.right-section {
+    margin-left: 85%;
+    display: inline-flex;
+}
+
+.right-section label {
+    margin-top: 2px;
+    color: white;
+}
+
+.right-section span {
+    margin-top: 2px;
+    color: white;
+}

@@ -1,0 +1,22 @@
+img {
+    border-radius: 50%;
+    width: 80px;
+    position: relative;
+    top: -58px;
+}
+
+.card {
+    margin-left: 37px !important;
+}
+.delete-btn {
+    margin-right: 82%;
+    color: aqua;
+}
+span {
+    font-size: 18px;
+    color: #E93939;
+}
+a {
+    font-size: 14px !important;
+    color: #007FA3 !important;
+}

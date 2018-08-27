@@ -1,0 +1,31 @@
+.pearson-users {
+    text-align: center;
+    position: relative;
+    top: 2px;
+}
+
+.profile {
+    background-color: #f3f2f2;
+    display: -ms-inline-flexbox;
+    display: flex;
+    padding: 100px;
+    padding-left: 10px;
+    overflow-y: auto;
+    box-shadow: -8px 9px #a2a2a2;
+}
+.error-template h1 {
+    color: red !important;
+}
+h1 {
+    font-size: 36px;
+    color: #009688 !important;
+}
+.error-action a span  {
+    color: white !important
+}
+.error-actions a {
+    color: blue !important;
+}
+.loader{
+    margin-top: 15%;
+}

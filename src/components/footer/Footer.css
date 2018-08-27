@@ -1,0 +1,11 @@
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: lightgray;
+    width:100%;
+}
+
+.footer span {
+    color: black;
+}
