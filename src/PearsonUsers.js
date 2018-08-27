@@ -122,7 +122,7 @@ export class PearsonUsers extends Component {
                   </div>
                   <div class="error-actions">
                     <a href="#" onClick={() => { this.getUsers() }} class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
-                      <span>{Constants.REFRESH_LIST}</span> </a><a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> {Constants.CONTACT_SUPPORT} </a>
+                      {Constants.REFRESH_LIST} </a>
                   </div>
                 </div>
               </div>}

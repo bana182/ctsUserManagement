@@ -55,14 +55,14 @@ export class Login extends Component {
                     <div className="panel-body">
                         <div className="form-group">
                             <label htmlFor="exampleInputEmail1">{Constants.USER_NAME}</label>
-                            <input autocomplete="false" type="text" className="form-control" name="username" onChange={(e) => { this.onChange(e, 'userName') }} id="username" placeholder="Enter usrname" />
+                            <input autocomplete="false" type="text" className="form-control" name="username" onChange={(e) => { this.onChange(e, 'userName') }} id="username" placeholder="Enter username" />
                         </div>
                         <div className="form-group">
                             <label htmlFor="exampleInputPassword1">{Constants.PASSWORD}</label>
-                            <input type="password" autocomplete="new-password" className="form-control" name="password" onChange={(e) => { this.onChange(e, 'password') }} id="password" placeholder="password" />
+                            <input type="password" autocomplete="new-password" className="form-control" name="password" onChange={(e) => { this.onChange(e, 'password') }} id="password" placeholder="Password" />
                         </div>
                         {this.state.notify ? <span>{this.state.message}</span> : ''} <br />
-                        <button className="btn-primary" onClick={(e) => { this.checkForAuthentication(e) }}>{Constants.LOG_IN}</button>
+                        <button className="btn-primary" onClick={(e) => { this.checkForAuthentication(e) }}>{Constants.SIGN_IN}</button>
                     </div>
                 </div>
             </div>

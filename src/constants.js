@@ -1,5 +1,5 @@
 export const Constants = {
-    CONFIRM_DIALOG_LABEL: 'Are you sure you want to permanently delete this user?',
+    CONFIRM_DIALOG_LABEL: 'Are you sure you want to permanently remove this user?',
     UNABLE_FETCH_USER: 'Unable to Fetch User List. Contact Administrator',
     DELETE_SUCCESS: 'Deleted successfully.',
     APP_TITLE: 'Pearson User Management',
@@ -14,7 +14,6 @@ export const Constants = {
     USER_NAME:'Username',
     PASSWORD: 'Password',
     SIGN_IN:'Sign In',
-    LOG_IN: 'Log IN',
     INVALID_CREDENTIAL_MESSAGE:'Invalid credentials',
     EMPTY_FIELDS: 'Fields should not be empty',
     COMPANY_LABEL: 'PEARSON',

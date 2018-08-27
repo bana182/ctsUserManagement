@@ -20,12 +20,10 @@ h1 {
     font-size: 36px;
     color: #009688 !important;
 }
-.error-action a span  {
+.error-actions a {
     color: white !important
 }
-.error-actions a {
-    color: blue !important;
-}
+
 .loader{
     margin-top: 15%;
 }
