@@ -17,14 +17,17 @@ export const Constants = {
     LOG_IN: 'Log IN',
     INVALID_CREDENTIAL_MESSAGE:'Invalid credentials',
     EMPTY_FIELDS: 'Fields should not be empty',
+    COMPANY_LABEL: 'PEARSON',
+    LOG_OUT: 'LogOut',
+    FOOTER_LABEL:'User-management@2018',
     UserProfiles: [
         {
             username:'admin',
             password:'admin'
         },
         {
-            username:'Harmeet',
-            password:'123'
+            username:'user',
+            password:'user'
         }
     ]
 
